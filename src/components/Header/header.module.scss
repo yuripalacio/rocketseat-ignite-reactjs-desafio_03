@@ -1,0 +1,30 @@
+.headerContainer {
+  height: 5rem;
+}
+
+.headerContent {
+  max-width: 760px;
+  height: 5rem;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+
+  svg {
+    width: 4rem;
+    height: 2rem;
+    fill: var(--pink-500);
+    margin-right: 0.1rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    color: var(--gray-100);
+
+    span {
+      color: var(--pink-500);
+    }
+  }
+}
